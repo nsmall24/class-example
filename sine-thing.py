@@ -1,3 +1,5 @@
+# Draws a sine wave made out of asterisks, forever.
+
 from math import sin, pi
 import time
 
