@@ -1,10 +1,8 @@
-from math import sin
+from math import sin, pi
 import time
 
-PI = 3.14159265358979
-
 def sine_thing(n):
-    return 20*sin(PI*n/20) + 21
+    return 20*sin(pi*n/20) + 21
 
 def main():
     s = ""
